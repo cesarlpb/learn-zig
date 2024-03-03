@@ -84,6 +84,6 @@ Ejercicios en: https://codeberg.org/ziglings/exercises/
 
 </details>
 
-## Progreso
-De un total de xx temas, se han completado yy. Esto representa un progreso del zz%.
+## Progreso: 0.30%
+De un total de 330 temas, se han completado 1. Esto representa un progreso del 0.30%.
 <img src="grid.png">
