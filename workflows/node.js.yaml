@@ -1,0 +1,43 @@
+name: Actualizar README.md
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  
+  schedule:
+    - cron: '0 0 * * *'  # Se ejecuta todos los días a la medianoche UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: COMMIT
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 20
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'
+    - run: npm install
+    - run: npm run update-readme
+      env:
+        NODE_ENV: "development"
+    - name: Crear commit y push al repositorio
+      
+      if: github.event_name == 'push'
+      run: |
+        git config --global user.name "$AUTHOR"
+        git config --global user.email "$EMAIL"
+        if [[ -n $(git status -s) ]]; then
+          git add .
+          git commit -m "[bot] Actualizar progreso"
+          git push
+        else
+          echo "No hay cambios para confirmar."
+        fi
+        echo $MSG
+      env:
+        AUTHOR: ${{ vars.AUTHOR }}
+        EMAIL: ${{ vars.EMAIL }}
+        MSG: ${{ vars.MSG }}
