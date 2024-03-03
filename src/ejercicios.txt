@@ -1,4 +1,4 @@
-001_hello.zig
+X 001_hello.zig
 002_std.zig
 003_assignment.zig
 004_arrays.zig
