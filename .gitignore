@@ -11,3 +11,7 @@ build-*/
 docgen_tmp/
 
 # End of https://www.toptal.com/developers/gitignore/api/zig
+
+# NPM
+node_modules/
+node_modules/*
