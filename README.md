@@ -89,6 +89,6 @@ Ejercicios en: https://codeberg.org/ziglings/exercises/
 De un total de 330 temas, se han completado 1. Esto representa un progreso del 0.30% en los temas.
 <img src="grid.png">
 
-## Progreso ejercicios: 0.96%
+## Progreso ejercicios: 1.92%
 De un total de 104 ejercicios, se han completado 1. Esto representa un progreso del 0.96% en los ejercicios.
 <img src="grid2.png">
