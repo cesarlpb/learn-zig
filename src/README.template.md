@@ -84,6 +84,10 @@ Ejercicios en: https://codeberg.org/ziglings/exercises/
 
 </details>
 
-## Progreso
+## Progreso contenidos
 De un total de xx temas, se han completado yy. Esto representa un progreso del zz%.
 <img src="grid.png">
+
+## Progreso ejercicios
+De un total de xx ejercicios, se han completado yy. Esto representa un progreso del zz%.
+<img src="grid2.png">
