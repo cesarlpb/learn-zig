@@ -1,0 +1,32 @@
+{
+  "name": "learn-zig",
+  "version": "1.0.0",
+  "description": "Repositorio para aprender Zig desde cero.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cesarlpb/learn-zig.git"
+  },
+  "keywords": [
+    "Zig",
+    "Learn Zig",
+    "Aprender Zig"
+  ],
+  "author": "César Patiño <cesarlpb@gmail.com> (https://cesarlpb.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarlpb/learn-zig/issues"
+  },
+  "homepage": "https://github.com/cesarlpb/learn-zig/#readme",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
