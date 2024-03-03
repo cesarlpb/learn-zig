@@ -23,6 +23,7 @@ Zig está diseñado para ser simple y fácil de entender, con una sintaxis clara
 - [Documentación oficial](https://ziglang.org/documentation/): Explora la documentación completa de Zig, que incluye tutoriales, guías y referencias detalladas.
 - [Repositorio en GitHub](https://github.com/ziglang/zig): Contribuye al desarrollo de Zig, presenta problemas y participa en la comunidad de código abierto.
 - [Zig Learn](https://ziglearn.org/): Una plataforma para aprender Zig con tutoriales interactivos y ejemplos de código.
+-  https://fig.io/manual/zig/build-exe: Documentación de Zig en fig.io.
 
 **Ejemplos:**
 - Sigue la estructura del libro con ejemplos: [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
