@@ -1,5 +1,5 @@
 X 001_hello.zig
-002_std.zig
+X 002_std.zig
 003_assignment.zig
 004_arrays.zig
 005_arrays2.zig
